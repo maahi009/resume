@@ -1,0 +1,45 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width:665px){
+    .resume{
+        width: 100%;
+        display: inline-flex;
+        gap: 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .resume >*{
+        padding:10px;
+        width: 100%;
+        max-width: 660px;
+        
+    }
+
+}
+header{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+    border-bottom: 2px solid black;
+}
+#profile{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}
+
+#name{
+    font-weight:400;
+    font-size: 3rem;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+}
